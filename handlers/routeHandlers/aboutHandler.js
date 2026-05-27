@@ -1,9 +1,9 @@
 // handler - module scaffolding
 const handler = {};
 
-handler.sampleHandler = (requestProperties, callback) => {
+handler.aboutHandler = (requestProperties, callback) => {
     console.log(requestProperties);
-    callback(200, { message: 'Sample handler called' });
+    callback(200, { message: 'About handler called' });
 };
 
 module.exports = handler;

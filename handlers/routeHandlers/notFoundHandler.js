@@ -1,4 +1,4 @@
-// sample handler - module scaffolding
+// handler - module scaffolding
 const handler = {};
 
 handler.notFoundHandler = (requestProperties, callback) => {
